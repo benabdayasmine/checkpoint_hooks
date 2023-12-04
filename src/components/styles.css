@@ -1,0 +1,19 @@
+#movies-list-container {
+  border: 1px black solid;
+  min-height: 100vh;
+  padding: 70px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.movies-list-cards-container {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 50px;
+}
+.movie-card {
+  margin: 0 !important;
+  padding: 0 !important;
+}
